@@ -1,0 +1,151 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    nav {
+      background-color: #f87070;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 80px;
+      text-align: center;
+      padding-left: 10%;
+      padding-right: 3%;
+      font-size: large;
+      
+    }
+
+    nav ul li {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .menu {
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      padding-right: 11%;
+    }
+     .section {
+      display: flex;
+      height: 90vh;
+    }
+
+    .section-text {
+      flex: 1;
+      background: linear-gradient(to right, #fdfd96, #ffd1dc);
+      padding: 60px;
+      display: flexbox;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .section-text h1 {
+      padding-top: 9%;
+      font-size: 60px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .section-text p {
+      line-height: 1.6;
+      margin-bottom: 30px;
+      max-width: 500px;
+    }
+
+    .section-text button {
+        margin-top: 5%;
+      background: #f87070;
+      border: none;
+      color: white;
+      padding: 15px ;
+      padding-right: 20%;
+      font-size: 18px;
+      cursor: pointer;
+      padding-left: 17%;
+    }
+
+    .section-text button:hover {
+      opacity: 0.9;
+    }
+
+    .image {
+      flex: 1;
+    }
+
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .gallery-section {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px;
+      background: linear-gradient(to right, #fff0c9, #fbc0ff);
+      gap: 50px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      flex: 1;
+      max-width: 500px;
+      align-items: stretch;
+    }
+    .item2{
+        height: 206%;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+
+    .gallery-text {
+      flex: 1;
+      background: #ff6b6b;
+      padding: 40px;
+      color: white;
+    }
+
+    .gallery-text h2 {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 10px 0 20px 0;
+      color: black;
+    }
+
+    .gallery-text small {
+      color: black;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .gallery-text a {
+      gap: 8px;
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      color: black;
+      font-weight: bold;
+      display: flex;
+    }
